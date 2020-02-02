@@ -16,4 +16,4 @@ Nature.ly is a web application that aims at knitting individuals together to pre
 
 - Breathe healthy- This platform gives all the details you should know about the oxygen you are breathing, and, not even realising how harmful it is. It is also an idea to realise everyone that we all are responsible for this and instantly act towards it.
 
-It is really high time we realise the urgency to act towards saving our nature. If we join hands, we can reverse the situation and we strongly believe - Together We Can and Together We Will! And for this, today we present one complete solution, our web-application GoGreen.
+It is really high time we realise the urgency to act towards saving our nature. If we join hands, we can reverse the situation and we strongly believe - Together We Can and Together We Will! And for this, today we present one complete solution, our web-application Naturely.
