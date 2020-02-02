@@ -1,10 +1,10 @@
-# GoGreen Smart web application powered by Recycli Android App
+# Nature.ly Smart web application powered by Android App
 
 **By Team Jarvis**
 
 ## Overview
 
-GoGreen is a web application that aims at knitting individuals together to prevent the further deterioration of our environment. As the environment has become our second priority and deforestation is escalating horribly, our main motive is to encourage afforestation, because tree plantation is itself the best talisman to counter environmental degradation.We achieve our target through various features that we have integrated into our website, viz.
+Nature.ly is a web application that aims at knitting individuals together to prevent the further deterioration of our environment. As the environment has become our second priority and deforestation is escalating horribly, our main motive is to encourage afforestation, because tree plantation is itself the best talisman to counter environmental degradation.We achieve our target through various features that we have integrated into our website, viz.
 
 - Events- This is a very important platform where individuals get to know about different ongoing events and also host one if they are interested and can witness their small efforts solving gargantuan real world problems.
 
