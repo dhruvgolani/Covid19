@@ -1,4 +1,4 @@
-# Nature.ly Smart web application powered by Android App
+# Gogreen Smart web application powered by Android App
 
 **By Team Jarvis**
 
