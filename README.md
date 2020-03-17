@@ -1,4 +1,4 @@
-# Gogreen Smart web application powered by Android App
+# GoGreen Smart web application powered by Recycli Android App
 
 **By Team Jarvis**
 
