@@ -129,7 +129,7 @@
 
 <div class="recent">
   <br>
-  <h3 style="text-align:center; font-weight:bold"> Greeny News </h3>
+  <h3 style="text-align:center; font-weight:bold"> Notifications Panel</h3>
   <div class="row innerbox">
     <div class="col-md-8">
       <div class="scrollbox shadow-lg p-3 mb-5 rounded " >
@@ -151,18 +151,20 @@
         </marquee>
       </div>
       <script type="text/javascript">
-        var xhttp1 = new XMLHttpRequest();
-        xhttp1.open("GET", "https://newsapi.org/v2/top-headlines?country=us&apiKey=19e7722107724a5b9b14285ef0738c0a", true);
-        xhttp1.send(null);
-        xhttp1.onreadystatechange = function () {
-          if (this.readyState == 4 && this.status == 200) {
-            var p = JSON.parse(xhttp1.responseText);
-            p.articles.forEach(function(obj){
-              $("#nnews").append("<a target='_blank' href='"+obj.url+"'><li>"+obj.title+"</li></a>");
-            });
-            console.log(p);
-          }
-        };
+
+        async function getapi(url) {
+            // Storing response
+            const response = await fetch(url);
+
+            // Storing data in form of JSON
+            var data = await response.json();
+            console.log(data);
+            for (let r of data["data"]["notifications"].slice(1)){
+              $("#nnews").append("<a target='_blank' href='"+r.link+"'><li>"+r.title.substring(10)+"("+r.title.substring(0, 10)+")"+"</li></a>");
+            }
+        }
+        getapi("https://api.rootnet.in/covid19-in/notifications");
+
       </script>
     </div>
     <div class="weather col-md-4">
